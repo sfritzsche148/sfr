@@ -14,7 +14,7 @@ app.get('/anfragen', (req,res) => {
 })
 
 app.post('/addAnfrage', (req,res) => {
-    const ADD_Query  = `Insert Into anfragen_database.anfragen (name) values (${req.body.name})`;
+    const ADD_Query  = `INSERT INTO anfragen_database.anfragen (Name) VALUES ('${req.body.name}')`;
     connection.query(ADD_Query, (err)=>{
         if(err) console.log(err)
         else res.send('Anfrage wurde gesendet')
@@ -22,7 +22,7 @@ app.post('/addAnfrage', (req,res) => {
     res.send('Du kannst Anfragen hinzufügen');
 })
 
-app.listen(3307, ()=> {
-    console.log('running on port 3307');
-})
+app.listen(5000, '127.0.0.1', ()=> {
+    console.log('running on port 3306');
+});
 

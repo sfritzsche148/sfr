@@ -1,4 +1,4 @@
-import React, { state, onSubmitClick, useState, Component} from 'react';
+import React, { state, onSubmitClick, setState, Component} from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
@@ -6,17 +6,17 @@ import axios from "axios";
 import Servicesection from './Servicesection';
 
 
-class Home extends Component{E
+class Home extends Component{
 render() {
   state = {
-    name: "",
+    name: "SebiTest2",
     mail: "",
     nachricht: "",
   }
 
 
   onSubmitClick = () => {
-    axios.post('http://localhost:3307/addAnfrage', {
+    axios.post('http://localhost:5000/addAnfrage', {
       name: state.Name
     })
   }
@@ -44,7 +44,7 @@ render() {
         </div>
         <div className='formsection'>
          
-            <input className='input' type="text" placeholder='Name*' value={state.Name} onChange={e => this.setState({
+            <input className='input' type="text" placeholder='Name*' value={state.Name} onChange={e => setState({
               name: e.target.value
             })} />
             <br />

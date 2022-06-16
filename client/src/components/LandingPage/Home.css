@@ -1,0 +1,103 @@
+.landingpicture {
+    width: 100%;
+    height: 850px;
+}
+
+.productpicture {
+    margin-left: 10px;
+    width: 500px;
+    padding-left: 100px;
+
+}
+
+.servlist1 {
+    display: flex;
+    justify-self: start;
+    cursor: pointer;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.servlist1 li {
+    margin-left: 45px;
+    font-size: 20px;
+    clear: left;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.servlist1 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.servlist {
+    display: flex;
+    justify-self: start;
+    cursor: pointer;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.servlist li {
+    margin-left: 125px;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.canv {
+    margin-left: 60px;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+}
+
+.input {
+    margin-left: calc(50% - 16px);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.butin {
+    margin-left: calc(50% - 16px);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.servheader {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.newsheader {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.productheader {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.agbtext {
+    margin-right: -330px;
+    text-align: center;
+}
+
+.evbtn {
+    margin-left: calc(50% - 16px);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.popuppic {
+    width: 600px;
+}

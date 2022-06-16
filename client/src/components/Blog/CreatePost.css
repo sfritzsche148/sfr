@@ -1,0 +1,20 @@
+.createPostPage {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cpContainer {
+    text-align: center;
+    padding: 280px 0;
+}
+
+.inputGP {
+    padding-top: 25px;
+}
+
+.blogsubbtn {
+    margin-top: 20px;
+}
+
+.blogsubbtn:hover {
+    border-color: #f00946;;
+}
